@@ -178,26 +178,35 @@ Verified:
 ### Docker Installation
 
 ![Docker Version](screenshots/01-docker-version.png)
+<img width="526" height="71" alt="Capture d’écran 2026-06-07 115519" src="https://github.com/user-attachments/assets/f1db89aa-eb0c-429a-b2ba-754fd129734f" />
+<img width="1323" height="581" alt="Capture d’écran 2026-06-07 103533" src="https://github.com/user-attachments/assets/15ca2296-8a73-4e4d-be1c-311a75fb8c81" />
 
 ### Hello World Container
 
 ![Hello World](screenshots/02-hello-world.png)
+<img width="1012" height="493" alt="Capture d’écran 2026-06-07 094103" src="https://github.com/user-attachments/assets/80fe350d-c098-4380-9d54-04596b4a03ba" />
 
 ### Docker Images
 
 ![Docker Images](screenshots/03-docker-images.png)
+<img width="963" height="150" alt="Capture d’écran 2026-06-07 104346" src="https://github.com/user-attachments/assets/10b06abc-11bd-4a3b-b5e1-5349226df09e" />
+
+<img width="1437" height="537" alt="Capture d’écran 2026-06-07 104703" src="https://github.com/user-attachments/assets/5b7c9e82-d105-44df-91a8-737adf3ceb03" />
 
 ### Docker Containers
 
 ![Docker PS](screenshots/04-docker-ps-a.png)
+<img width="936" height="523" alt="Capture d’écran 2026-06-07 105118" src="https://github.com/user-attachments/assets/a1eabed3-7318-4dd9-84bc-5482707b1a97" />
 
 ### Running Nginx Container
 
 ![Running Container](screenshots/05-running-nginx.png)
+<img width="1323" height="581" alt="Capture d’écran 2026-06-07 103533" src="https://github.com/user-attachments/assets/7e3a43fd-6f24-4a78-a08c-dc4c25dd5b25" />
 
 ### Nginx Welcome Page
 
 ![Nginx Web Page](screenshots/06-nginx-webpage.png)
+<img width="1890" height="1031" alt="Capture d’écran 2026-06-07 105445" src="https://github.com/user-attachments/assets/59fdfc09-94f0-49cc-be55-dd326c39d4bb" />
 
 ---
 
