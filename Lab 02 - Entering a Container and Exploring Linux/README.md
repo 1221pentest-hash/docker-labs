@@ -240,10 +240,13 @@ Leave the container and return to PowerShell.
 ### Current Directory
 
 ![PWD Command](screenshots/02-pwd-command.png)
+<img width="432" height="60" alt="pwd-2" src="https://github.com/user-attachments/assets/f4bcf8d6-1878-407c-ac73-621ad2ea69e3" />
+<img width="522" height="72" alt="pwd" src="https://github.com/user-attachments/assets/d646f076-a232-4841-becb-30a4d6ac50d6" />
 
 ### Root Filesystem
 
 ![Root Filesystem](screenshots/03-root-filesystem.png)
+<img width="692" height="761" alt="root + ls" src="https://github.com/user-attachments/assets/2175cdce-90e6-4d01-b176-76663c3a647d" />
 
 ### Nginx Configuration Directory
 
