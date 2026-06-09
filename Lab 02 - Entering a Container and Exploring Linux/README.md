@@ -235,6 +235,7 @@ Leave the container and return to PowerShell.
 ### Entering the Container
 
 ![Enter Container](screenshots/01-enter-container.png)
+<img width="927" height="222" alt="entering container" src="https://github.com/user-attachments/assets/26ac2e13-f534-4ba2-8a1c-11d6d6b00edb" />
 
 ### Current Directory
 
@@ -248,15 +249,44 @@ Leave the container and return to PowerShell.
 
 ![Nginx Directory](screenshots/04-nginx-config-directory.png)
 
+<img width="476" height="170" alt="conf d  directory" src="https://github.com/user-attachments/assets/c909f403-44eb-464d-999b-dc98d01af30e" />
+<<img width="601" height="487" alt="nginx html-2" src="https://github.com/user-attachments/assets/1537a7ee-b528-46dc-8ae6-dbe14941649c" />
+
+<img width="900" height="161" alt="04-ls-l-nginx-directory" src="https://github.com/user-attachments/assets/7949516d-ddea-44f1-853b-90abe20fbd23" />
+
 ### Nginx Configuration File
 
 ![Nginx Config](screenshots/05-nginx-conf.png)
+<img width="707" height="540" alt="nginx config" src="https://github.com/user-attachments/assets/90f9966b-6b26-4168-bbde-a30cc2ff5c67" />
 
 ### Running Processes
 
 ![Processes](screenshots/06-process-list.png)
+<img width="601" height="487" alt="nginx html-2" src="https://github.com/user-attachments/assets/5b691ba5-1379-4e8f-bd27-5e12292fd56b" />
+<img width="601" height="487" alt="nginx html-2" src="https://github.com/user-attachments/assets/a8f5479b-20b3-4fcd-9f92-f4e2da9f3bc0" />
+<img width="425" height="191" alt="troubleshooting commnand" src="https://github.com/user-attachments/assets/47045960-b6fc-4bbe-9e68-a1074effafc2" />
+<img width="422" height="142" alt="nginx html" src="https://github.com/user-attachments/assets/b9630738-c79b-4ca1-8ebb-bc3111bdf738" />
+
 
 ---
+## Key Lesson Learned
+
+The most important concept learned in this lab was understanding the difference between the Windows host and the Linux container.
+
+Before running any command, I learned to identify my environment by examining the terminal prompt.
+
+Examples:
+
+* `PS C:\Users\...>` indicates I am on the Windows host.
+* `root@container:/#` indicates I am inside a Linux Docker container.
+
+This habit helps determine which commands are available and prevents troubleshooting mistakes.
+
+DevOps Rule #1:
+
+1. Look at the prompt.
+2. Ask: "Where am I?"
+3. Run commands appropriate for that environment.
 
 ## What I Learned
 
