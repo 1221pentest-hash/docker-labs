@@ -166,3 +166,26 @@ This allows containers to be recreated without losing important data.
 ## Outcome
 
 Successfully demonstrated Docker persistent storage using volumes and verified that data survives container deletion and recreation.
+
+
+## Screenshots
+
+### Docker Volume
+
+![Docker Volume](screenshots/01-docker-volume-ls.png)
+
+### Docker Images
+
+![Docker Images](screenshots/02-docker-images.png)
+
+### Container Creation
+
+![Container Creation](screenshots/03-create-container.png)
+
+### File Stored In Volume
+
+![File Stored In Volume](screenshots/04-lab03-file.png)
+
+### File Survived In New Container
+
+![File Survived](screenshots/05-file-survived.png)
