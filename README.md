@@ -21,8 +21,8 @@ Hands-on Docker labs documenting my journey from beginner to DevOps Engineer.
 | Lab    | Topic                           | Status         |
 | ------ | ------------------------------- | -------------- |
 | Lab 01 | First Container Deployment      | ✅ Complete     |
-| Lab 02 | Docker Exec & Linux Exploration | 🔄 In Progress |
-| Lab 03 | Docker Volumes                  | ⏳ Planned      |
+| Lab 02 | Docker Exec & Linux Exploration | ✅ Complete  |
+| Lab 03 | Docker Volumes                  | ✅ Complete     |
 | Lab 04 | Docker Networks                 | ⏳ Planned      |
 | Lab 05 | Dockerfile Fundamentals         | ⏳ Planned      |
 | Lab 06 | Docker Compose                  | ⏳ Planned      |
