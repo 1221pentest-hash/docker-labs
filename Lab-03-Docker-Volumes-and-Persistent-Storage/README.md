@@ -1,4 +1,5 @@
 
+
 # Docker Lab 03 – Volumes and Persistent Storage
 
 ## Objective
@@ -173,19 +174,29 @@ Successfully demonstrated Docker persistent storage using volumes and verified t
 ### Docker Volume
 
 ![Docker Volume](screenshots/01-docker-volume-ls.png)
-
+<img width="966" height="510" alt="01-docker-volume-ls" src="https://github.com/user-attachments/assets/09862399-a371-41e0-b2ff-e2c38b3503eb" />
 ### Docker Images
 
 ![Docker Images](screenshots/02-docker-images.png)
+<img width="966" height="510" alt="02-docker-images" src="https://github.com/user-attachments/assets/c38ba8b9-3968-4109-a48b-8f060ef0a466" />
+
 
 ### Container Creation
 
 ![Container Creation](screenshots/03-create-container.png)
+<img width="977" height="392" alt="03-create-container" src="https://github.com/user-attachments/assets/e17aa904-dd89-4db8-abd3-c55ae883bb07" />
+
 
 ### File Stored In Volume
 
 ![File Stored In Volume](screenshots/04-lab03-file.png)
+<img width="442" height="110" alt="04  lab03-file" src="https://github.com/user-attachments/assets/5e163c5f-f9e6-4347-b728-42b9a79baf68" />
 
 ### File Survived In New Container
 
 ![File Survived](screenshots/05-file-survived.png)
+
+<img width="427" height="183" alt="05-file-survived" src="https://github.com/user-attachments/assets/9cb2e9c7-6314-4a22-98ae-58b2b13c898c" />
+
+<img width="1127" height="260" alt="06-create and delete container" src="https://github.com/user-attachments/assets/85adca35-f2e9-48ef-8462-adc235483d15" />
+
