@@ -306,11 +306,26 @@ During this lab I learned:
 
 ## Key Takeaways
 
-* Docker containers often run Linux environments.
-* Linux commands can be executed directly inside containers.
-* Configuration files are commonly stored in the `/etc` directory.
-* Running processes can be inspected using Linux tools.
-* Docker and Linux skills complement each other and are both essential for DevOps engineers.
+
+A Docker container is not just an application. It is a lightweight Linux environment with its own filesystem, users, processes, and configuration files.
+
+During this lab I learned to:
+
+* Enter a running container using docker exec
+* Read the Linux prompt
+* Identify the current user, machine, and location
+* Navigate directories with cd
+* List files using ls and ls -l
+* Read files with cat
+* Inspect Nginx configuration files
+* Identify the Linux distribution using /etc/os-release
+* Locate the Nginx web root
+* Understand that the webpage displayed in the browser is generated from the index.html file served by Nginx
+
+Most important rule:
+
+Before running any command, look at the prompt and ask:
+"Where am I?"
 
 ---
 
