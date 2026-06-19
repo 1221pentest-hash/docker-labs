@@ -581,38 +581,23 @@ The software is now part of the custom image and will exist in future containers
 
 
 
+## Screenshots
 
-\## Screenshots
+### Container Creation
 
+![Container Creation](screenshots/01-container-created.png)
 
+### Container Verification
 
-\### Container Creation
+![Container Verification](screenshots/02-container-whoami.png)
 
+### Docker Commit
 
+![Docker Commit](screenshots/03-docker-commit.png)
 
-!\[Container Creation](screenshots/LAB5-start.png)
+### Custom Image Verification
 
-
-
-\### Container Verification
-
-
-
-!\[Container Verification](screenshots/LAB5-container-whoami.png)
-
-
-
-\### Docker Commit
-
-
-
-!\[Docker Commit](screenshots/LAB%205%20-COMIT.png)
-
-
-
-\### Custom Image Verification
-
-
+![Custom Image Verification](screenshots/04-custom-image.png)
 
 !\[Custom Image Verification](screenshots/LAB5-docker-custom-image.png)
 
