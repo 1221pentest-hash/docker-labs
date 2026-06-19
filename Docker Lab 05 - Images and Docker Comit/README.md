@@ -414,55 +414,35 @@ Verify Nano is still installed.
 
 
 
-\## Image Lifecycle
+## Image Lifecycle
 
 
 
 ```text
-
 ubuntu:latest
-
-&#x20;       │
-
-&#x20;       ▼
-
+      │
+      ▼
 Create Container (lab5)
-
-&#x20;       │
-
-&#x20;       ▼
-
+      │
+      ▼
 Install Nano
-
-&#x20;       │
-
-&#x20;       ▼
-
+      │
+      ▼
 docker commit
-
-&#x20;       │
-
-&#x20;       ▼
-
+      │
+      ▼
 ubuntu-nano:v1
-
-&#x20;       │
-
-&#x20;       ▼
-
+      │
+      ▼
 Create New Container
-
-&#x20;       │
-
-&#x20;       ▼
-
+      │
+      ▼
 Nano Already Installed
-
 ```
 
 
 
-\---
+
 
 
 
