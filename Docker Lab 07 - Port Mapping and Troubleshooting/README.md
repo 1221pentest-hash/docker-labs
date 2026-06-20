@@ -476,43 +476,23 @@ All network interfaces
 
 \---
 
-
-
-\## Screenshots
-
-
-
-\### Nginx Welcome Page
+\### Screenshots
 
 
 
-!\[Nginx Welcome](screenshots/01-nginx-browser.png)
+\[Nginx Welcome](screenshots/01-nginx-browser.png)
 
 
 
-\### Container IP Inspection
+\[Container IP](screenshots/02-container-ip.png)
 
 
 
-!\[Container IP](screenshots/02-container-ip.png)
+\[Troubleshooting](screenshots/03-troubleshooting.png)
 
 
 
-\### Port Conflict Troubleshooting
-
-
-
-!\[Troubleshooting](screenshots/03-troubleshooting.png)
-
-
-
-\### Multiple Containers Running
-
-
-
-!\[Containers Running](screenshots/04-containers\_running.png)
-
-
+\[Containers Running](screenshots/04-containers\_running.png)
 
 \---
 
