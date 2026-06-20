@@ -148,5 +148,39 @@ docker stats <container>
 - Nginx generated logs because it actively performs work.
 - Docker inspect provides detailed container information.
 - Docker top shows running processes.
+
+
+## Screenshots
+
+### Docker Container Inspection
+
+![Docker Inspect](Screenshots/01-docker-inspect.png)
+
+---
+
+### Nginx Logs
+
+![Nginx Logs](Screenshots/02-nginx-logs.png)
+
+---
+
+### Nginx Container Inspection
+
+![Nginx Inspect](Screenshots/03-nginx-inspect.png)
+
+---
+
+### Docker Resource Monitoring
+
+![Docker Stats](Screenshots/04-docker-stats.png)
+
+---
+
+### Git Commit and Push
+
+![Git Commit](Screenshots/05-LAB6-GITHUB_pushandCommit.png)
+
+
+
 - Docker stats shows resource usage.
 - Troubleshooting is based on evidence, not assumptions.
