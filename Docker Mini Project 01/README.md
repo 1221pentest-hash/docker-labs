@@ -64,22 +64,22 @@ docker compose down
 ## Screenshots
 
 ### 1. Folder Structure
-![Folder structure](./Screenshots/01-lab_folder.png)
+![Folder structure](./screenshots/01-lab_folder.png)
 
 ### 2. `docker compose up -d`
-![Docker compose up](./Screenshots/02-docker_compose_up.png)
+![Docker compose up](./screenshots/02-docker_compose_up.png)
 
 ### 3. `docker ps`
-![Docker ps](./Screenshots/03-docker_ps.png)
+![Docker ps](./screenshots/03-docker_ps.png)
 
 ### 4. `docker compose down`
-![Docker compose down](./Screenshots/04-docker_compose_down.png)
+![Docker compose down](./screenshots/04-docker_compose_down.png)
 
 ### 5. HTML Folder Contents
-![HTML folder](./Screenshots/05-html_good_.png)
+![HTML folder](./screenshots/05-html(good).png)
 
 ### 6. Custom Page in Browser
-![Custom page](./Screenshots/06-welcome.png)
+![Custom page](./screenshots/06-welcome.png)
 
 ## Troubleshooting Log
 
@@ -113,8 +113,8 @@ docker exec -it dockerminiproject01-myBANANAweb-1 ls -la /usr/share/nginx/html
 
 Output revealed the file was actually named `index.html.txt`, not `index.html` — Windows Explorer hides known file extensions by default, so renaming the file in the GUI silently kept the original `.txt` extension instead of replacing it.
 
-![Troubleshooting - mismatched title tag](./Screenshots/07-1troubleshooting.png)
-![Troubleshooting - docker exec inspection](./Screenshots/07-2troubleshooting.png)
+![Troubleshooting - mismatched title tag](./screenshots/07-1troubleshooting.png)
+![Troubleshooting - docker exec inspection](./screenshots/07-2troubleshooting.png)
 
 **Fix:** Enabled file extensions in Windows Explorer settings and renamed the file to a true `index.html`. Since the folder is a live bind mount, Nginx picked up the correctly named file immediately — no container restart required.
 
