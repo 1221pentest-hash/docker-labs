@@ -296,7 +296,7 @@ docker compose up -d
 
 ports:
 
-&#x20; - "8081:80"
+ - "8081:80"
 
 ```
 
