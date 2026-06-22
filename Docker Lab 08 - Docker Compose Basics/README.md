@@ -36,23 +36,19 @@ Learn how to use Docker Compose to deploy and manage containers using a YAML con
 
 
 
-\### docker-compose.yml
 
 
+
+## Docker Compose File
+
+### docker-compose.yml
 
 ```yaml
-
 services:
-
-&#x20; web:
-
-&#x20;   image: nginx
-
-&#x20;   ports:
-
-&#x20;     - "8081:80"
-
-```
+  web:
+    image: nginx
+    ports:
+      - "8081:80"
 
 
 
