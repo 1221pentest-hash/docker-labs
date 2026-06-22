@@ -193,27 +193,27 @@ is executed.
 
 ### Compose File
 
-![Compose File](screenshots/01-compose-file.png)
+![Compose File](Screenshots/01-compose-file.png)
 
 ### Display Compose File
 
-![Display Compose File](screenshots/02-type_docker-compose.yml.png)
+![Display Compose File](Screenshots/02-type_docker-compose.yml.png)
 
 ### Running Containers
 
-![Running Containers](screenshots/03-docker-ps.png)
+![Running Containers](Screenshots/03-docker-ps.png)
 
 ### Nginx Browser Test
 
-![Nginx Browser Test](screenshots/04-nginx-compose-browser.png)
+![Nginx Browser Test](Screenshots/04-nginx-compose-browser.png)
 
 ### Docker Compose Down
 
-![Docker Compose Down](screenshots/05-docker_compose_down.png)
+![Docker Compose Down](Screenshots/05-docker_compose_down.png)
 
 ### Verification After Removal
 
-![Verification After Removal](screenshots/06-DCB_docker_ps.png)
+![Verification After Removal](Screenshots/06-DCB_docker_ps.png)
 
 ---
 
