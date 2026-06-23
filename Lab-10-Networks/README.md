@@ -972,7 +972,7 @@ This confirms that Docker DNS is working correctly.
 
 
 
-!\[Existing Networks](screenshots/01-docker-network-ls.png)
+![Existing Networks](screenshots/01-docker-network-ls.png)
 
 
 
@@ -980,7 +980,7 @@ This confirms that Docker DNS is working correctly.
 
 
 
-!\[Custom Network](screenshots/02-custom-network-created.png)
+![Custom Network](screenshots/02-custom-network-created.png)
 
 
 
@@ -988,7 +988,7 @@ This confirms that Docker DNS is working correctly.
 
 
 
-!\[Client1](screenshots/03-client1-running.png)
+![Client1](screenshots/03-client1-running.png)
 
 
 
@@ -996,7 +996,7 @@ This confirms that Docker DNS is working correctly.
 
 
 
-!\[Two Containers](screenshots/04-two-containers-running.png)
+![Two Containers](screenshots/04-two-containers-running.png)
 
 
 
@@ -1004,7 +1004,7 @@ This confirms that Docker DNS is working correctly.
 
 
 
-!\[Ping Test](screenshots/05-ping-client2.png)
+![Ping Test](screenshots/05-ping-client2.png)
 
 
 
@@ -1012,7 +1012,7 @@ This confirms that Docker DNS is working correctly.
 
 
 
-!\[Network Inspect](screenshots/06-network-inspect.png)
+![Network Inspect](screenshots/06-network-inspect.png)
 
 
 
@@ -1020,7 +1020,7 @@ This confirms that Docker DNS is working correctly.
 
 
 
-!\[Network Removed](screenshots/07-network-removed.png)
+![Network Removed](screenshots/07-network-removed.png)
 
 
 
