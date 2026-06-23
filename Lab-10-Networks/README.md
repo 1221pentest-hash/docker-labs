@@ -964,11 +964,11 @@ This confirms that Docker DNS is working correctly.
 
 
 
-\## screenshots
+## screenshots
 
 
 
-\### Existing Networks
+### Existing Networks
 
 
 
@@ -976,7 +976,7 @@ This confirms that Docker DNS is working correctly.
 
 
 
-\### Custom Network Created
+### Custom Network Created
 
 
 
@@ -984,7 +984,7 @@ This confirms that Docker DNS is working correctly.
 
 
 
-\### Client1 Running
+### Client1 Running
 
 
 
@@ -992,7 +992,7 @@ This confirms that Docker DNS is working correctly.
 
 
 
-\### Two Containers Running
+### Two Containers Running
 
 
 
@@ -1000,7 +1000,7 @@ This confirms that Docker DNS is working correctly.
 
 
 
-\### Connectivity Test
+### Connectivity Test
 
 
 
@@ -1008,7 +1008,7 @@ This confirms that Docker DNS is working correctly.
 
 
 
-\### Network Inspection
+### Network Inspection
 
 
 
@@ -1016,7 +1016,7 @@ This confirms that Docker DNS is working correctly.
 
 
 
-\### Cleanup
+### Cleanup
 
 
 
@@ -1024,7 +1024,7 @@ This confirms that Docker DNS is working correctly.
 
 
 
-\---
+---
 
 
 
