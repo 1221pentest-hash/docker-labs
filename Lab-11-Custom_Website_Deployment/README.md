@@ -322,45 +322,65 @@ http://localhost:8082
 
 ### Bind Mounts
 
-
-
 ```yaml
-
 volumes:
-
-&#x20; - ./website:/usr/share/nginx/html
-
+  - ./website:/usr/share/nginx/html
 ```
-
-
 
 Meaning:
 
-
-
 ```text
-
 Host Folder
-
-&#x20;    │
-
-&#x20;    ▼
-
+     │
+     ▼
 website
-
-&#x20;    │
-
-&#x20;    ▼
-
+     │
+     ▼
 Nginx Container
-
-&#x20;    │
-
-&#x20;    ▼
-
+     │
+     ▼
 Browser
-
 ```
+
+Changes on the host are instantly visible inside the container.
+
+---
+
+## Screenshots
+
+### Folder Structure
+
+![Folder Structure](screenshots/01-tree.png)
+
+### HTML File
+
+![HTML File](screenshots/02-html.png)
+
+### Docker Compose File
+
+![Compose File](screenshots/03-docker-compose.png)
+
+### Docker Compose Deployment
+
+![Compose Up](screenshots/04-compose-up.png)
+
+### Running Container
+
+![Docker PS](screenshots/05-docker-ps.png)
+
+### Browser Test
+
+![Browser Test](screenshots/06-browser-test.png)
+
+### Live Update Test
+
+![Live Update Test](screenshots/07-live-update-test.png)
+
+### Deployment Removal
+
+![Compose Down](screenshots/08-verification-after-removal.png)
+
+---
 
 
 
@@ -371,75 +391,6 @@ Changes on the host are instantly visible inside the container.
 ---
 
 
-## Screenshots
-
-
-
-### Folder Structure
-
-
-
-![Folder Structure](screenshots/01-tree.png)
-
-
-
-### HTML File
-
-
-
-![HTML File](screenshots/02-html.png)
-
-
-
-### Docker Compose File
-
-
-
-![Compose File](screenshots/03-docker-compose.png)
-
-
-
-### Docker Compose Deployment
-
-
-
-![Compose Up](screenshots/04-compose-up.png)
-
-
-
-### Running Container
-
-
-
-![Docker PS](screenshots/05-docker-ps.png)
-
-
-
-### Browser Test
-
-
-
-![Browser Test](screenshots/06-browser-test.png)
-
-
-
-### Live Update Test
-
-
-
-![Live Update Test](screenshots/07-live-update-test.png)
-
-
-
-### Deployment Removal
-
-
-
-![Compose Down](screenshots/08-verification-after-removal.png)
-
-
-
----
 
 
 
