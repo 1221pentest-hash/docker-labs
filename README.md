@@ -92,13 +92,11 @@ Aspiring IT Support, Desktop Support, Cybersecurity, and DevOps professional.
 * Container Communication
 * Network Troubleshooting
 
-### Documentation
+## Documentation
 
-* Markdown
-* Git
-* GitHub
-* Technical Documentation
-* Troubleshooting Notes
+### Study Notes
+
+- [Docker Notes](docs/docker-notes.md)
 
 ---
 
