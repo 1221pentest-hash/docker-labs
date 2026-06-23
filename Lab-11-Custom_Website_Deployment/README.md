@@ -1,8 +1,8 @@
-\# Docker Lab 11 - Custom Website Deployment
+# Docker Lab 11 - Custom Website Deployment
 
 
 
-\## Objective
+## Objective
 
 
 
@@ -14,33 +14,33 @@ This lab demonstrates how developers can edit files locally while Docker serves 
 
 
 
-\---
+---
 
 
 
-\## Environment
+## Environment
 
 
 
-\- Windows 11
+- Windows 11
 
-\- Docker Desktop
+- Docker Desktop
 
-\- PowerShell
+- PowerShell
 
-\- Nginx
+- Nginx
 
-\- Docker Compose
+- Docker Compose
 
-\- HTML
-
-
-
-\---
+- HTML
 
 
 
-\## Project Structure
+---
+
+
+
+## Project Structure
 
 
 
@@ -68,15 +68,15 @@ Lab-11-Custom\_Website\_Deployment
 
 
 
-\---
+---
 
 
 
-\## Commands Used
+## Commands Used
 
 
 
-\### Verify Folder Structure
+### Verify Folder Structure
 
 
 
@@ -88,7 +88,7 @@ tree /f
 
 
 
-\### View HTML File
+### View HTML File
 
 
 
@@ -100,7 +100,7 @@ type .\\website\\index.html
 
 
 
-\### View Docker Compose File
+### View Docker Compose File
 
 
 
@@ -112,7 +112,7 @@ type docker-compose.yml
 
 
 
-\### Deploy Application
+### Deploy Application
 
 
 
@@ -124,7 +124,7 @@ docker compose up -d
 
 
 
-\### Verify Running Container
+### Verify Running Container
 
 
 
@@ -136,7 +136,7 @@ docker ps
 
 
 
-\### Stop Deployment
+### Stop Deployment
 
 
 
@@ -148,11 +148,11 @@ docker compose down
 
 
 
-\---
+---
 
 
 
-\## Docker Compose Configuration
+## Docker Compose Configuration
 
 
 
@@ -182,11 +182,11 @@ services:
 
 
 
-\---
+---
 
 
 
-\## Results
+## Results
 
 
 
@@ -194,25 +194,25 @@ Docker successfully:
 
 
 
-\- Created an isolated network
+- Created an isolated network
 
-\- Started an Nginx container
+- Started an Nginx container
 
-\- Mapped port 8082 to port 80
+- Mapped port 8082 to port 80
 
-\- Mounted the local website folder
+- Mounted the local website folder
 
-\- Served a custom HTML website
+- Served a custom HTML website
 
-\- Reflected file changes immediately
-
-
-
-\---
+- Reflected file changes immediately
 
 
 
-\## Volume Synchronization Test
+---
+
+
+
+## Volume Synchronization Test
 
 
 
@@ -240,15 +240,15 @@ This confirms the bind mount was functioning correctly.
 
 
 
-\---
+---
 
 
 
-\## Concepts Learned
+## Concepts Learned
 
 
 
-\### Docker Compose
+### Docker Compose
 
 
 
@@ -272,11 +272,11 @@ services:
 
 
 
-\---
+---
 
 
 
-\### Port Mapping
+### Port Mapping
 
 
 
@@ -316,11 +316,11 @@ http://localhost:8082
 
 
 
-\---
+---
 
 
 
-\### Bind Mounts
+### Bind Mounts
 
 
 
@@ -368,87 +368,86 @@ Changes on the host are instantly visible inside the container.
 
 
 
-\---
+---
+
+
+## Screenshots
 
 
 
-\## Screenshots
+### Folder Structure
 
 
 
-\### Folder Structure
+![Folder Structure](screenshots/01-tree.png)
 
 
 
-!\[Folder Structure](screenshots/01-tree.png)
+### HTML File
 
 
 
-\### HTML File
+![HTML File](screenshots/02-html.png)
 
 
 
-!\[HTML File](screenshots/02-html.png)
+### Docker Compose File
 
 
 
-\### Docker Compose File
+![Compose File](screenshots/03-docker-compose.png)
 
 
 
-!\[Compose File](screenshots/03-docker-compose.png)
+### Docker Compose Deployment
 
 
 
-\### Docker Compose Deployment
+![Compose Up](screenshots/04-compose-up.png)
 
 
 
-!\[Compose Up](screenshots/04-compose-up.png)
+### Running Container
 
 
 
-\### Running Container
+![Docker PS](screenshots/05-docker-ps.png)
 
 
 
-!\[Docker PS](screenshots/05-docker-ps.png)
+### Browser Test
 
 
 
-\### Browser Test
+![Browser Test](screenshots/06-browser-test.png)
 
 
 
-!\[Browser Test](screenshots/06-browser-test.png)
+### Live Update Test
 
 
 
-\### Live Update Test
+![Live Update Test](screenshots/07-live-update-test.png)
 
 
 
-!\[Live Update Test](screenshots/07-live-update-test.png)
+### Deployment Removal
 
 
 
-\### Deployment Removal
+![Compose Down](screenshots/08-verification-after-removal.png)
 
 
 
-!\[Compose Down](screenshots/08-verification-after-removal.png)
+---
 
 
 
-\---
+## Troubleshooting Notes
 
 
 
-\## Troubleshooting Notes
-
-
-
-\### Docker Compose YAML Error
+### Docker Compose YAML Error
 
 
 
@@ -506,11 +505,11 @@ Docker Compose expects ports to be defined as a list.
 
 
 
-\---
+---
 
 
 
-\### Volume Mount Verification
+### Volume Mount Verification
 
 
 
@@ -546,11 +545,11 @@ The bind mount was functioning correctly.
 
 
 
-\---
+---
 
 
 
-\### Container Verification
+### Container Verification
 
 
 
@@ -570,49 +569,49 @@ Purpose:
 
 
 
-\- Verify container status
+- Verify container status
 
-\- Verify container name
+- Verify container name
 
-\- Verify port mapping
-
-
-
-\---
+- Verify port mapping
 
 
 
-\## Skills Practiced
+---
 
 
 
-\- Docker Compose
-
-\- Docker Volumes
-
-\- Bind Mounts
-
-\- Nginx
-
-\- HTML
-
-\- YAML
-
-\- Port Mapping
-
-\- Container Deployment
-
-\- Troubleshooting
-
-\- Technical Documentation
+## Skills Practiced
 
 
 
-\---
+- Docker Compose
+
+- Docker Volumes
+
+- Bind Mounts
+
+- Nginx
+
+- HTML
+
+- YAML
+
+- Port Mapping
+
+- Container Deployment
+
+- Troubleshooting
+
+- Technical Documentation
 
 
 
-\## Key Takeaway
+---
+
+
+
+## Key Takeaway
 
 
 
