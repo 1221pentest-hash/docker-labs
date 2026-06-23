@@ -964,7 +964,7 @@ This confirms that Docker DNS is working correctly.
 
 
 
-\## Screenshots
+\## screenshots
 
 
 
