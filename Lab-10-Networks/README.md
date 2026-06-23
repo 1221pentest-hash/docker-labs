@@ -18,13 +18,13 @@ Learn how Docker Networks allow containers to communicate with each other using 
 
 
 
-\* Windows 11
+* Windows 11
 
-\* Docker Desktop
+* Docker Desktop
 
-\* PowerShell
+* PowerShell
 
-\* Alpine Linux Containers
+* Alpine Linux Containers
 
 
 
@@ -576,7 +576,7 @@ Purpose:
 
 
 
-\### Test Network Connectivity
+### Test Network Connectivity
 
 
 
