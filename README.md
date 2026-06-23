@@ -4,6 +4,18 @@ Hands-on Docker labs documenting my journey from beginner to advanced containeri
 
 This repository contains practical labs, troubleshooting exercises, and technical documentation completed while learning Docker, Linux, and DevOps fundamentals.
 
+## Documentation
+
+### Study Notes
+
+- [Docker Notes](docs/docker-notes.md)
+
+### Reference Material
+
+- Docker Commands
+- Troubleshooting Notes
+- HTML Basics
+- YAML Examples
 ---
 
 # 👨‍💻 About Me
