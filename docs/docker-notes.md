@@ -485,3 +485,85 @@ Purpose:
 ## Key Takeaway
 
 Docker Networks allow containers to communicate using container names instead of IP addresses, simplifying service discovery and multi-container deployments.
+
+
+
+
+
+# Docker Compose Website Deployment
+
+## Deploy
+
+```powershell
+docker compose up -d
+```
+
+Starts all services defined in docker-compose.yml.
+
+## Verify
+
+```powershell
+docker ps
+```
+
+Displays running containers.
+
+## Stop
+
+```powershell
+docker compose down
+```
+
+Stops containers and removes the Compose network.
+
+## View Compose File
+
+```powershell
+type docker-compose.yml
+```
+
+Displays the deployment configuration.
+
+## Common YAML Error
+
+Issue:
+
+```text
+services.web.ports must be a array
+```
+
+Incorrect:
+
+```yaml
+ports: "8082:80"
+```
+
+Correct:
+
+```yaml
+ports:
+  - "8082:80"
+```
+
+## Bind Mount Example
+
+```yaml
+volumes:
+  - ./website:/usr/share/nginx/html
+```
+
+Purpose:
+
+Synchronizes local files with container files.
+
+## Verification Test
+
+Add:
+
+```html
+<p>Docker Compose Is Awesome!</p>
+```
+
+Refresh the browser.
+
+If the update appears immediately, the bind mount is working correctly.
