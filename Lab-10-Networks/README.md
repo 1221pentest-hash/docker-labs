@@ -1,8 +1,8 @@
-\# Docker Lab 10 - Docker Networks
+# Docker Lab 10 - Docker Networks
 
 
 
-\## Objective
+## Objective
 
 
 
@@ -10,11 +10,11 @@ Learn how Docker Networks allow containers to communicate with each other using 
 
 
 
-\---
+---
 
 
 
-\## Environment
+## Environment
 
 
 
@@ -28,15 +28,15 @@ Learn how Docker Networks allow containers to communicate with each other using 
 
 
 
-\---
+---
 
 
 
-\## Commands Used
+## Commands Used
 
 
 
-\### List Existing Networks
+### List Existing Networks
 
 
 
@@ -48,7 +48,7 @@ docker network ls
 
 
 
-\### Create Custom Network
+### Create Custom Network
 
 
 
@@ -72,7 +72,7 @@ docker run -dit --name client1 --network lab10-network alpine sh
 
 
 
-\### Create Container 2
+### Create Container 2
 
 
 
@@ -84,7 +84,7 @@ docker run -dit --name client2 --network lab10-network alpine sh
 
 
 
-\### Verify Containers
+### Verify Containers
 
 
 
@@ -96,7 +96,7 @@ docker ps
 
 
 
-\### Access Container
+### Access Container
 
 
 
@@ -108,7 +108,7 @@ docker exec -it client1 sh
 
 
 
-\### Test Connectivity
+### Test Connectivity
 
 
 
@@ -120,7 +120,7 @@ ping client2
 
 
 
-\### Inspect Network
+### Inspect Network
 
 
 
@@ -132,7 +132,7 @@ docker network inspect lab10-network
 
 
 
-\### Remove Containers
+### Remove Containers
 
 
 
@@ -144,7 +144,7 @@ docker rm -f client1 client2
 
 
 
-\### Remove Network
+### Remove Network
 
 
 
@@ -156,11 +156,11 @@ docker network rm lab10-network
 
 
 
-\---
+---
 
 
 
-\## Results
+## Results
 
 
 
@@ -168,19 +168,19 @@ Docker successfully:
 
 
 
-\* Created a custom bridge network
+* Created a custom bridge network
 
-\* Connected multiple containers to the network
+* Connected multiple containers to the network
 
-\* Assigned IP addresses automatically
+* Assigned IP addresses automatically
 
-\* Provided automatic DNS resolution
+* Provided automatic DNS resolution
 
-\* Allowed container-to-container communication
+* Allowed container-to-container communication
 
 
 
-\---
+---
 
 
 
@@ -206,11 +206,11 @@ Docker successfully:
 
 
 
-\---
+---
 
 
 
-\## DNS Resolution Test
+## DNS Resolution Test
 
 
 
@@ -266,11 +266,11 @@ without manually configuring DNS.
 
 
 
-\---
+---
 
 
 
-\## Network Inspection
+## Network Inspection
 
 
 
@@ -306,15 +306,15 @@ Both containers were attached to the custom bridge network.
 
 
 
-\---
+---
 
 
 
-\## Concepts Learned
+## Concepts Learned
 
 
 
-\### Docker Networks
+### Docker Networks
 
 
 
@@ -322,11 +322,11 @@ Docker Networks allow containers to communicate securely.
 
 
 
-\---
+---
 
 
 
-\### Bridge Networks
+### Bridge Networks
 
 
 
@@ -334,11 +334,11 @@ A bridge network creates an isolated communication environment between container
 
 
 
-\---
+---
 
 
 
-\### DNS Resolution
+### DNS Resolution
 
 
 
@@ -370,11 +370,11 @@ client1 → 172.19.0.3
 
 
 
-\---
+---
 
 
 
-\### Network Inspection
+### Network Inspection
 
 
 
@@ -390,15 +390,15 @@ docker network inspect
 
 
 
-\---
+---
 
 
 
-\## Command Reference
+## Command Reference
 
 
 
-\### View Existing Networks
+### View Existing Networks
 
 
 
@@ -414,17 +414,17 @@ Purpose:
 
 
 
-\* Displays all Docker networks
+* Displays all Docker networks
 
-\* Shows network driver and scope
-
-
-
-\---
+* Shows network driver and scope
 
 
 
-\### Create Custom Network
+---
+
+
+
+### Create Custom Network
 
 
 
@@ -440,17 +440,17 @@ Purpose:
 
 
 
-\* Creates a custom bridge network
+* Creates a custom bridge network
 
-\* Allows container-to-container communication
-
-
-
-\---
+* Allows container-to-container communication
 
 
 
-\### Verify Network Creation
+---
+
+
+
+### Verify Network Creation
 
 
 
@@ -466,7 +466,7 @@ Purpose:
 
 
 
-\* Confirms the network was successfully created
+* Confirms the network was successfully created
 
 
 
@@ -474,7 +474,7 @@ Purpose:
 
 
 
-\### Create Client1 Container
+### Create Client1 Container
 
 
 
@@ -490,17 +490,17 @@ Purpose:
 
 
 
-\* Creates a lightweight Alpine Linux container
+* Creates a lightweight Alpine Linux container
 
-\* Connects it to the custom network
-
-
-
-\---
+* Connects it to the custom network
 
 
 
-\### Create Client2 Container
+---
+
+
+
+### Create Client2 Container
 
 
 
@@ -516,17 +516,17 @@ Purpose:
 
 
 
-\* Creates a second container
+* Creates a second container
 
-\* Connects it to the same network
-
-
-
-\---
+* Connects it to the same network
 
 
 
-\### Verify Running Containers
+---
+
+
+
+### Verify Running Containers
 
 
 
@@ -542,17 +542,17 @@ Purpose:
 
 
 
-\* Displays running containers
+* Displays running containers
 
-\* Verifies both containers are active
-
-
-
-\---
+* Verifies both containers are active
 
 
 
-\### Access Container Shell
+---
+
+
+
+### Access Container Shell
 
 
 
@@ -568,11 +568,11 @@ Purpose:
 
 
 
-\* Opens an interactive shell inside client1
+* Opens an interactive shell inside client1
 
 
 
-\---
+---
 
 
 
@@ -592,9 +592,9 @@ Purpose:
 
 
 
-\* Tests communication between containers
+* Tests communication between containers
 
-\* Verifies Docker DNS resolution
+* Verifies Docker DNS resolution
 
 
 
@@ -610,11 +610,11 @@ PING client2 (172.19.0.3)
 
 
 
-\---
+---
 
 
 
-\### Inspect Network
+### Inspect Network
 
 
 
@@ -630,19 +630,19 @@ Purpose:
 
 
 
-\* Displays detailed network information
+* Displays detailed network information
 
-\* Shows connected containers
+* Shows connected containers
 
-\* Shows assigned IP addresses
-
-
-
-\---
+* Shows assigned IP addresses
 
 
 
-\### Remove Containers
+---
+
+
+
+### Remove Containers
 
 
 
@@ -658,15 +658,15 @@ Purpose:
 
 
 
-\* Force removes both containers
+* Force removes both containers
 
 
 
-\---
+---
 
 
 
-\### Remove Network
+### Remove Network
 
 
 
@@ -682,15 +682,15 @@ Purpose:
 
 
 
-\* Deletes the custom network
+* Deletes the custom network
 
 
 
-\---
+---
 
 
 
-\### Verify Cleanup
+### Verify Cleanup
 
 
 
@@ -706,17 +706,17 @@ Purpose:
 
 
 
-\* Confirms the network was removed
+* Confirms the network was removed
 
 
 
 
 
-\## Troubleshooting Notes
+## Troubleshooting Notes
 
 
 
-\### Alpine Image Not Found
+### Alpine Image Not Found
 
 
 
@@ -760,11 +760,11 @@ Status: Downloaded newer image for alpine:latest
 
 
 
-\---
+---
 
 
 
-\### Ping Command Not Working
+### Ping Command Not Working
 
 
 
@@ -804,11 +804,11 @@ docker network inspect lab10-network
 
 
 
-\---
+---
 
 
 
-\### Container Not Found
+### Container Not Found
 
 
 
@@ -848,11 +848,11 @@ docker ps -a
 
 
 
-\---
+---
 
 
 
-\### Network Already Exists
+### Network Already Exists
 
 
 
@@ -896,7 +896,7 @@ or use a different network name.
 
 
 
-\---
+---
 
 
 
@@ -932,23 +932,27 @@ This confirms that Docker DNS is working correctly.
 
 
 
-\---
+---
 
 
 
-\### Key Lessons Learned
+### Key Lessons Learned
 
 
 
-\* Docker networks isolate container communication.
+* Docker networks isolate container communication.
 
-\* Containers on the same network can communicate using names.
+* Containers on the same network can communicate using names.
 
-\* Docker automatically provides DNS resolution.
+* Docker automatically provides DNS resolution.
 
-\* Network inspection is useful for troubleshooting connectivity issues.
 
-\* Custom bridge networks simplify multi-container deployments.
+
+
+
+* Network inspection is useful for troubleshooting connectivity issues.
+
+* Custom bridge networks simplify multi-container deployments.
 
 
 
@@ -1024,35 +1028,37 @@ This confirms that Docker DNS is working correctly.
 
 
 
-\## Skills Practiced
+## Skills Practiced
 
 
 
-\* Docker Networks
+* Docker Networks
 
-\* Bridge Networks
+* Bridge Networks
 
-\* DNS Resolution
+* DNS Resolution
 
-\* Container Communication
+* Container Communication
 
-\* Network Inspection
+* Network Inspection
 
-\* Troubleshooting
+* Troubleshooting
 
-\* Linux Containers
+* Linux Containers
 
-\* Docker CLI
+* Docker CLI
 
-\* Technical Documentation
-
-
-
-\---
+* Technical Documentation
 
 
 
-\## Key Takeaway
+---
+
+
+
+## Key Takeaway
+
+
 
 
 
