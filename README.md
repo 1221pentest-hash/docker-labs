@@ -1,21 +1,9 @@
 # 🐳 Docker Labs
 
-Hands-on Docker labs documenting my journey from beginner to advanced containerization concepts.
+Hands-on Docker labs documenting my journey from beginner to DevOps Engineer.
 
-This repository contains practical labs, troubleshooting exercises, and technical documentation completed while learning Docker, Linux, and DevOps fundamentals.
+This repository contains practical Docker labs, troubleshooting exercises, and technical documentation completed while learning containerization, Linux, networking, and DevOps fundamentals.
 
-## Documentation
-
-### Study Notes
-
-- [Docker Notes](docs/docker-notes.md)
-
-### Reference Material
-
-- Docker Commands
-- Troubleshooting Notes
-- HTML Basics
-- YAML Examples
 ---
 
 # 👨‍💻 About Me
@@ -59,10 +47,10 @@ Aspiring IT Support, Desktop Support, Cybersecurity, and DevOps professional.
 | ------ | --------------------------------- | ---------- |
 | Lab 01 | First Container Deployment        | ✅ Complete |
 | Lab 02 | Docker Exec & Linux Exploration   | ✅ Complete |
-| Lab 03 | Docker Volumes Fundamentals       | ✅ Complete |
-| Lab 04 | Docker Networks Fundamentals      | ✅ Complete |
+| Lab 03 | Docker Volumes                    | ✅ Complete |
+| Lab 04 | Docker Networks                   | ✅ Complete |
 | Lab 05 | Dockerfile Fundamentals           | ✅ Complete |
-| Lab 06 | Docker Compose Introduction       | ✅ Complete |
+| Lab 06 | Docker Compose                    | ✅ Complete |
 | Lab 07 | Docker CLI & Container Management | ✅ Complete |
 | Lab 08 | Docker Compose Basics             | ✅ Complete |
 | Lab 09 | Docker Volumes & Nginx Website    | ✅ Complete |
@@ -94,15 +82,14 @@ Aspiring IT Support, Desktop Support, Cybersecurity, and DevOps professional.
 
 * Linux Navigation
 * File Management
-* Package Management
 * Shell Commands
 * Process Management
 
 ### Networking
 
 * Port Mapping
-* Container Networking
 * Bridge Networks
+* Container Communication
 * Network Troubleshooting
 
 ### Documentation
@@ -115,10 +102,26 @@ Aspiring IT Support, Desktop Support, Cybersecurity, and DevOps professional.
 
 ---
 
+# 📚 Documentation
+
+### Study Notes
+
+* Docker Commands
+* Troubleshooting Log
+* HTML Basics
+* YAML Examples
+* Linux Commands
+
+Documentation files are stored in the `docs` folder.
+
+---
+
 # 📂 Repository Structure
 
 ```text
 docker-labs/
+│
+├── docs/
 │
 ├── Lab-01/
 ├── Lab-02/
@@ -137,22 +140,22 @@ docker-labs/
 
 # 🚀 Recent Accomplishments
 
-### Lab 08 - Docker Compose Basics
+## Lab 08 - Docker Compose Basics
 
 * Created and managed containers using Docker Compose
 * Learned YAML configuration
 * Implemented port mapping
 * Practiced Infrastructure as Code concepts
 
-### Lab 09 - Docker Volumes & Nginx Website
+## Lab 09 - Docker Volumes & Nginx Website
 
 * Mounted local folders into containers
 * Built a custom Nginx website
 * Learned persistent storage concepts
-* Performed real-world troubleshooting
+* Performed troubleshooting and debugging
 * Validated real-time file synchronization
 
-Key Lesson:
+### Key Lesson
 
 ```text
 Containers = Ephemeral
@@ -181,4 +184,5 @@ GitHub: 1221pentest-hash
 
 This repository is not a collection of copied tutorials.
 
-Every lab is built manually, tested, documented, and includes troubleshooting notes to demonstrate practical Docker, Linux, and problem-solving skills.
+Every lab is built manually, tested, documented, and includes troubleshooting notes to demonstrate practical Docker, Linux, networking, and problem-solving skills.
+
