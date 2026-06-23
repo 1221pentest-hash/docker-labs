@@ -39,33 +39,19 @@ This lab demonstrates how developers can edit files locally while Docker serves 
 ---
 
 
-
 ## Project Structure
 
-
-
 ```text
-
-Lab-11-Custom\_Website\_Deployment
-
+Lab-11-Custom_Website_Deployment
 │
-
 ├── docker-compose.yml
-
 ├── README.md
-
 │
-
 ├── screenshots
-
 │
-
 └── website
-
-&#x20;   └── index.html
-
+    └── index.html
 ```
-
 
 
 ---
@@ -160,23 +146,23 @@ docker compose down
 
 services:
 
-&#x20; web:
+ web:
 
-&#x20;   image: nginx
+   image: nginx
 
-&#x20;   container\_name: lab11-web
-
-
-
-&#x20;   ports:
-
-&#x20;     - "8082:80"
+   container\_name: lab11-web
 
 
 
-&#x20;   volumes:
+   ports:
 
-&#x20;     - ./website:/usr/share/nginx/html
+    - "8082:80"
+
+
+
+   volumes:
+
+     - ./website:/usr/share/nginx/html
 
 ```
 
@@ -264,9 +250,9 @@ Example:
 
 services:
 
-&#x20; web:
+ web:
 
-&#x20;   image: nginx
+   image: nginx
 
 ```
 
@@ -284,7 +270,7 @@ services:
 
 ports:
 
-&#x20; - "8082:80"
+ - "8082:80"
 
 ```
 
@@ -442,7 +428,7 @@ Correct:
 
 ports:
 
-&#x20; - "8082:80"
+ - "8082:80"
 
 ```
 
