@@ -184,26 +184,24 @@ Docker successfully:
 
 
 
-\## Network Topology
-
-
+## Network Topology
 
 ```text
-
-client1
-
-&#x20;  │
-
-&#x20;  ▼
-
-lab10-network
-
-&#x20;  ▲
-
-&#x20;  │
-
-client2
-
++---------+
+| client1 |
++---------+
+     |
+     |
+     v
++---------------+
+| lab10-network |
++---------------+
+     ^
+     |
+     |
++---------+
+| client2 |
++---------+
 ```
 
 
@@ -712,9 +710,7 @@ Purpose:
 
 
 
-```
 
-```
 
 \## Troubleshooting Notes
 
