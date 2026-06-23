@@ -12,12 +12,12 @@ This repository contains practical Docker labs, troubleshooting exercises, and t
 
 Aspiring IT Support, Desktop Support, Cybersecurity, and DevOps professional.
 
-### Certifications
+## Certifications
 
 * CompTIA Security+
 * Cybersecurity Analyst Diploma
 
-### Currently Studying
+## Currently Studying
 
 * CCNA
 * Linux
@@ -54,8 +54,8 @@ Aspiring IT Support, Desktop Support, Cybersecurity, and DevOps professional.
 | Lab 07 | Docker CLI & Container Management | ✅ Complete |
 | Lab 08 | Docker Compose Basics             | ✅ Complete |
 | Lab 09 | Docker Volumes & Nginx Website    | ✅ Complete |
-| Lab 10 | Docker Networks Deep Dive         | ⏳ Next     |
-| Lab 11 | Custom Website Deployment         | ⏳ Planned  |
+| Lab 10 | Docker Networks Deep Dive         | ✅ Complete |
+| Lab 11 | Custom Website Deployment         | ⏳ Next     |
 | Lab 12 | Bind Mounts                       | ⏳ Planned  |
 | Lab 13 | Multi-Container Applications      | ⏳ Planned  |
 | Lab 14 | Docker Logs                       | ⏳ Planned  |
@@ -68,7 +68,7 @@ Aspiring IT Support, Desktop Support, Cybersecurity, and DevOps professional.
 
 # 🛠️ Skills Developed
 
-### Docker
+## Docker
 
 * Docker Images
 * Docker Containers
@@ -78,21 +78,22 @@ Aspiring IT Support, Desktop Support, Cybersecurity, and DevOps professional.
 * Dockerfiles
 * Container Lifecycle Management
 
-### Linux
+## Linux
 
 * Linux Navigation
 * File Management
 * Shell Commands
 * Process Management
 
-### Networking
+## Networking
 
 * Port Mapping
 * Bridge Networks
 * Container Communication
+* DNS Resolution
 * Network Troubleshooting
 
-### Documentation
+## Documentation
 
 * Markdown
 * Git
@@ -104,15 +105,21 @@ Aspiring IT Support, Desktop Support, Cybersecurity, and DevOps professional.
 
 # 📚 Documentation
 
-### Study Notes
+## Study Notes
+
+* Docker Notes (`docs/docker-notes.md`)
+
+### Topics Covered
 
 * Docker Commands
-* Troubleshooting Log
+* Docker Compose
+* Docker Volumes
+* Docker Networks
+* Docker DNS
+* YAML Basics
 * HTML Basics
-* YAML Examples
-* Linux Commands
-
-Documentation files are stored in the `docs` folder.
+* Git Commands
+* Troubleshooting Notes
 
 ---
 
@@ -122,6 +129,7 @@ Documentation files are stored in the `docs` folder.
 docker-labs/
 │
 ├── docs/
+│   └── docker-notes.md
 │
 ├── Lab-01/
 ├── Lab-02/
@@ -138,7 +146,7 @@ docker-labs/
 
 ---
 
-# 🚀 Recent Accomplishments
+# 🚀 Repository Highlights
 
 ## Lab 08 - Docker Compose Basics
 
@@ -152,14 +160,24 @@ docker-labs/
 * Mounted local folders into containers
 * Built a custom Nginx website
 * Learned persistent storage concepts
-* Performed troubleshooting and debugging
 * Validated real-time file synchronization
 
-### Key Lesson
+## Lab 10 - Docker Networks
+
+* Created custom bridge networks
+* Connected multiple containers
+* Tested container-to-container communication
+* Learned Docker DNS resolution
+* Used network inspection for troubleshooting
+
+### Key Lessons Learned
 
 ```text
 Containers = Ephemeral
 Volumes = Persistent
+
+Container Names = DNS Records
+Docker Networks = Container Communication
 ```
 
 ---
@@ -167,8 +185,8 @@ Volumes = Persistent
 # 📈 Current Progress
 
 ```text
-Labs Completed: 9
-Current Lab: 10 - Docker Networks
+Labs Completed: 10
+Current Lab: 11 - Custom Website Deployment
 Goal: Docker → Linux → DevOps → Cloud
 ```
 
@@ -184,5 +202,6 @@ GitHub: 1221pentest-hash
 
 This repository is not a collection of copied tutorials.
 
-Every lab is built manually, tested, documented, and includes troubleshooting notes to demonstrate practical Docker, Linux, networking, and problem-solving skills.
+Every lab is built manually, tested, documented, includes screenshots, troubleshooting notes, and lessons learned to demonstrate practical Docker, Linux, networking, and problem-solving skills.
+
 
