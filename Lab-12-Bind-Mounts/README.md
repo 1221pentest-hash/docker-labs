@@ -210,11 +210,11 @@ services:
 
 ### Container Created
 
-![Container Created](screenshots/04-container-created.png)
+![Container Created](screenshots/04-container_created.png)
 
 ### Running Container
 
-![Docker PS](screenshots/05-docker-ps.png)
+![Docker PS](screenshots/05-docker_ps.png)
 
 ### Browser Test
 
