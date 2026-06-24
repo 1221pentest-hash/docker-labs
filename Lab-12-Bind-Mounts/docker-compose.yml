@@ -1,0 +1,10 @@
+services:
+  web:
+    image: nginx
+    container_name: lab12-web
+
+    ports:
+      - "8083:80"
+
+    volumes:
+      - ./website:/usr/share/nginx/html
