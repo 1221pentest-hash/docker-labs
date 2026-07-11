@@ -1,0 +1,14 @@
+services:
+  web:
+    image: nginx:${NGINX_VERSION}
+
+    container_name: ${CONTAINER_NAME}
+
+    ports:
+      - "${PORT}:80"
+
+    volumes:
+      - ./website:/usr/share/nginx/html
+
+    environment:
+      - ENVIRONMENT=${ENVIRONMENT}
